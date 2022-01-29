@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "noImplicitAny": true,
+      "noUnusedLocals": false,
+      "noUnusedParameters": false,
+      "noImplicitReturns": true,
+      "strictNullChecks": true,
+  
+      "target": "es6",
+      "module": "commonjs",
+      "lib": ["es2015", "es2016", "es2017", "esnext", "es5", "es2018.promise"],
+      "sourceMap": false,
+      "isolatedModules": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": "src",
+      "outDir": "build"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "./node_modules", "./node_modules/*", "**/*.spec.ts"]
+  }
